@@ -10,7 +10,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   
 
   const content = {
-    to: email,
+    to: 'engr.ugbechike@ugbechike.dev',
     from: 'engr.ugbechike@gmail.com',
     subject: `New Message From - ${firstName}, ${lastName}`,
     html: `
@@ -22,8 +22,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   };
 
   const data = {
-    "url": "http://email.myhostname.com",
-    "hostname": "myhostname.com",
+    "url": "http://email.ugbechike.dev",
+    "hostname": "ugbechike.dev",
     "spam_check": false,
     "send_raw": true
   };
