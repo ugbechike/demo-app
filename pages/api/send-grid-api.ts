@@ -17,7 +17,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     <p>First Name: ${firstName}</p>
     <p>Last Name: ${lastName}</p>
     <p>Email: ${email}</p>
-    <p>Message: ${message}</p>
+    <p>Message: ${message} do not reply please...</p>
   `,
   };
 
